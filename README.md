@@ -10,23 +10,6 @@ Tested on
 - Unity 2020.3.44f1
 - TensorFlow 2.10.0
 
-Included examples:
-
-- TensorFlow
-  - MNIST
-  - SSD Object Detection
-  - DeepLab
-  - PoseNet
-  - Style Transfer
-  - Text Classification
-  - Bert Question and Answer
-  - Super Resolution
-- MediaPipe
-  - Hand Tracking
-  - Blaze Face
-  - Face Mesh
-  - Blaze Pose (Full body)
-  - Selfie Segmentation
 
 Included prebuilt libraries:
 
@@ -99,26 +82,6 @@ Pre-built libraries are included. If you want to build the latest TFLite,
 adb logcat Unity:V tflite:V "*:S"
 ```
 
-## Show Cases
-
-__MNIST__  
-![Mnist](https://imgur.com/yi2MtCF.gif)
-
-__SSD Object Detection__  
-![SSD](https://imgur.com/Omeatqc.gif)
-
-__DeepLab Semantic Segmentation__  
-![DeepLab](https://imgur.com/tH1Z8NG.gif)
-
-__Style Transfer__  
-![styletransfter](https://i.imgur.com/SOLMjZi.gif)
-
-__Hand Tracking__  
-![handtracking](https://user-images.githubusercontent.com/357497/89078175-28179780-d384-11ea-8a35-8b48a31aa52d.gif)
-
-__BERT__  
-![BERT](https://user-images.githubusercontent.com/357497/89077837-6496c380-d383-11ea-96f8-a5ae6e61d603.png)
-
 ## License
 
 Samples folder `Assets/Samples/*` is licensed under MIT
@@ -156,19 +119,3 @@ Other Licenses
 Model Licenses
 
 📌 : Each TensorFlow Lite model might have a different license. Please check the license of the model you use.
-
-- [Official TFlite Models](https://www.tensorflow.org/lite/examples)
-  - Bert
-  - SSD
-  - DeepLab Lab
-  - MNIST
-  - Style Transfer
-  - PoseNet
-  - Text classification
-  - Smart Reply
-- [MediaPipe Models](https://github.com/google/mediapipe)
-  - Blaze Pose
-  - Face Mesh
-  - Hand Tracking
-  - Selfie Segmentation
-    - Using the modified model from [PINTO_model_zoo](https://github.com/PINTO0309/PINTO_model_zoo) to remove the custom post-process.
